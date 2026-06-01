@@ -46,6 +46,60 @@ ul, ol {
 
 .header {
     grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: max-content max-content;
+    grid-template-areas:
+    "search user"
+    "greet actions";
+}
+
+.searchbar {
+    grid-area: search;
+    display: flex;
+    gap: 0.5em;
+}
+
+.icon-search {
+    max-width: 100px;
+}
+
+.searchbar input {
+    flex: 1;
+}
+
+.user-menu {
+    grid-area: user;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5em;
+}
+
+.greeting {
+    grid-area: greet;
+    display: flex;
+    gap: 0.5em;
+}
+
+.greeting-text {
+    flex: 1;
+}
+
+.header-actions {
+    grid-area: actions;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.header-actions > button {
+    flex: 1 1 30%;
+    color: white;
+    background-color: #1992D4;
+    border: #1992D4;
+    border-radius: 20px;
+    padding: 0.5em;
 }
 
 .main {
