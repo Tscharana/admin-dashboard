@@ -106,19 +106,20 @@ ul, ol {
     grid-area: main;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    "projects sidebar-secondary";
+    "projects announcements"
+    "projects trending";
 }
 
-.projects {
+.projects-wrapper {
     grid-area: projects;
 }
 
-.sidebar-secondary {
-    grid-area: sidebar-secondary;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 1rem;
+.announcements-wrapper {
+    grid-area: announcements;
+}
+
+.trending-wrapper {
+    grid-area: trending;
 }
