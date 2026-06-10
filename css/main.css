@@ -114,6 +114,8 @@ ul, ol {
 
 .projects-wrapper {
     grid-area: projects;
+    display: grid;
+    grid-auto-rows: auto 1fr;
 }
 
 .announcements-wrapper {
