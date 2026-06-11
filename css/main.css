@@ -142,3 +142,9 @@ ul, ol {
     grid-template-rows: auto 1fr auto;
     gap: var(--main-gap);
 }
+
+.project-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--main-gap);
+}
