@@ -6,6 +6,7 @@
     --gap-sm: 0.5rem;
     --gap-md: 1rem;
     --gap-lg: 3rem;
+    --announcement-border: 1px solid grey;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -128,10 +129,13 @@ ul, ol {
     grid-area: projects;
     display: grid;
     grid-template-rows: auto 1fr;
+    gap: var(--gap-md);
 }
 
 .announcements-wrapper {
     grid-area: announcements;
+    display: grid;
+    gap: var(--gap-md);
 }
 
 .trending-wrapper {
@@ -155,4 +159,13 @@ ul, ol {
     display: flex;
     justify-content: flex-end;
     gap: var(--gap-sm);
+}
+
+.announcements {
+    display: grid;
+    gap: var(--gap-md);
+}
+
+.announcement + .announcement {
+    border-top: var(--announcement-border);
 }
