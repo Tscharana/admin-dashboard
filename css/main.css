@@ -141,6 +141,9 @@ ul, ol {
 
 .trending-wrapper {
     grid-area: trending;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: var(--gap-md);
 }
 
 .projects {
