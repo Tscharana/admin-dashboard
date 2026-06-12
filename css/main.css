@@ -19,10 +19,10 @@ ul, ol {
     margin: 0;
 }
 
-/* .grid-container div {
+.grid-container div {
     outline: 1px solid black;
     padding: 10px;
-} */
+}
 
 .grid-container {
     min-height: 100vh;
