@@ -161,6 +161,7 @@ ul, ol {
     display: grid;
     grid-template-rows: auto 1fr auto;
     gap: var(--gap-sm);
+    padding: var(--gap-md);
 }
 
 .project-icons {
@@ -174,6 +175,7 @@ ul, ol {
     grid-auto-flow: row;
     grid-auto-rows: auto;
     gap: var(--gap-sm);
+    padding: var(--gap-sm);
 }
 
 .announcement + .announcement {
@@ -186,6 +188,7 @@ ul, ol {
     grid-auto-flow: row;
     grid-auto-rows: auto;
     gap: var(--gap-sm);
+    padding: var(--gap-sm);
 }
 
 .trending-item {
