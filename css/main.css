@@ -7,6 +7,9 @@
     --gap-md: 1rem;
     --gap-lg: 3rem;
     --announcement-border: 1px solid grey;
+
+    --sidebar-bg: #343a40;
+    --sidebar-text: white;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -36,6 +39,8 @@ ul, ol {
 .sidebar {
     grid-area: sidebar;
     padding: var(--gap-md);
+    color: var(--sidebar-text);
+    background-color: var(--sidebar-bg);
 }
 
 .sidebar, .navigation {
