@@ -27,7 +27,7 @@ ul, ol {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: auto 4fr;
     grid-template-areas:
     "sidebar header"
     "sidebar main";
@@ -42,7 +42,7 @@ ul, ol {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: max-content;
-    gap: var(--gap-lg);
+    gap: var(--gap-md);
 }
 
 .account-links, .main-links {
@@ -65,7 +65,7 @@ ul, ol {
     grid-template-areas:
     "search user"
     "greet actions";
-    gap: var(--gap-lg);
+    gap: var(--gap-md);
     padding: var(--gap-md);
 }
 
@@ -125,6 +125,8 @@ ul, ol {
     grid-template-areas:
     "projects announcements"
     "projects trending";
+    gap: var(--gap-lg);
+    padding: var(--gap-md);
 }
 
 .projects-wrapper {
