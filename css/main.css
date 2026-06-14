@@ -65,6 +65,8 @@ ul, ol {
     grid-template-areas:
     "search user"
     "greet actions";
+    gap: var(--gap-lg);
+    padding: var(--gap-md);
 }
 
 .searchbar {
