@@ -10,6 +10,9 @@
 
     --sidebar-bg: #343a40;
     --sidebar-text: #ffffff;
+    --header-bg: #ffffff;
+    --header-text: #212529;
+    --main-bg: #f4f6f9;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -72,6 +75,8 @@ ul, ol {
     "greet actions";
     gap: var(--gap-md);
     padding: var(--gap-md);
+    background-color: var(--header-bg);
+    color: var(--header-text);
 }
 
 .searchbar {
@@ -98,6 +103,7 @@ ul, ol {
 .greeting {
     grid-area: greet;
     display: flex;
+    align-items: center;
     gap: var(--gap-sm);
 }
 
@@ -132,6 +138,7 @@ ul, ol {
     "projects trending";
     gap: var(--gap-lg);
     padding: var(--gap-md);
+    background-color: var(--main-bg);
 }
 
 .projects-wrapper {
