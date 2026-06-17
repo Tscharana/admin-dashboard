@@ -13,6 +13,7 @@
     --header-bg: #ffffff;
     --header-text: #212529;
     --main-bg: #f4f6f9;
+    --card-bg: #ffffff;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -25,9 +26,9 @@ ul, ol {
     margin: 0;
 }
 
-.grid-container div {
+/* .grid-container div {
     outline: 1px solid black;
-}
+} */
 
 .grid-container {
     min-height: 100vh;
@@ -174,6 +175,7 @@ ul, ol {
     grid-template-rows: auto 1fr auto;
     gap: var(--gap-sm);
     padding: var(--gap-md);
+    background: var(--card-bg);
 }
 
 .project-icons {
@@ -188,6 +190,7 @@ ul, ol {
     grid-auto-rows: auto;
     gap: var(--gap-sm);
     padding: var(--gap-sm);
+    background: var(--card-bg);
 }
 
 .announcement + .announcement {
@@ -201,6 +204,7 @@ ul, ol {
     grid-auto-rows: auto;
     gap: var(--gap-sm);
     padding: var(--gap-sm);
+    background: var(--card-bg);
 }
 
 .trending-item {
