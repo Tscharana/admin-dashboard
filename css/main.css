@@ -15,15 +15,22 @@
     --gap-sm: 0.5rem;
     --gap-md: 1rem;
     --gap-lg: 3rem;
+    --font-size-logo: 1.5rem;
     --announcement-border: 1px solid grey;
 
     --text-main: #495057;
+    --link-primary: #ffffff;
     --sidebar-bg: #343a40;
     --sidebar-text: #ffffff;
     --header-bg: #ffffff;
     --header-text: #212529;
+    --header-button: #ffffff;
+    --header-button-bg: #1992D4;
     --main-bg: #f4f6f9;
     --card-bg: #ffffff;
+
+    --icon-logo: #ffffff;
+    --icon-side-icon: #ffffff;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -51,6 +58,11 @@ ul, ol {
     margin: 0;
 }
 
+a {
+    color: var(--link-primary);
+    text-decoration: none;
+}
+
 /* .grid-container div {
     outline: 1px solid black;
 } */
@@ -76,7 +88,7 @@ ul, ol {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: max-content;
-    gap: var(--gap-md);
+    gap: var(--gap-lg);
 }
 
 .account-links, .main-links {
@@ -147,8 +159,8 @@ ul, ol {
 
 .header-actions > button {
     flex: 1 1 30%;
-    color: white;
-    background-color: #1992D4;
+    color: var(--header-button);
+    background-color: var(--header-button-bg);
     border: none;
     border-radius: 20px;
     padding: 0.5em;
@@ -237,4 +249,20 @@ ul, ol {
     grid-template-columns: auto 1fr;
     gap: var(--gap-sm);
     align-items: center;
+}
+
+.branding {
+    font-size: var(--font-size-logo);
+}
+
+.logo svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: var(--icon-logo);
+}
+
+.side-icon svg {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--icon-side-icon);
 }
