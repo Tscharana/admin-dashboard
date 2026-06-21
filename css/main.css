@@ -25,6 +25,7 @@
     --size-header-icon: var(--size-scale-md);
     --size-avatar-small: var(--size-scale-md);
     --size-avatar-big: var(--size-scale-lg);
+    --size-main-icon: var(--size-scale-md);
 
     --announcement-border: 1px solid grey;
 
@@ -43,6 +44,7 @@
     --icon-logo: #ffffff;
     --icon-side-icon: #ffffff;
     --icon-header: #343a40;
+    --icon-main: #343a40;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -310,4 +312,10 @@ ul, ol {
 .user-avatar svg {
     width: 100%;
     height: 100%;
+}
+
+.main svg {
+    width: var(--size-main-icon);
+    height: var(--size-main-icon);
+    fill: var(--icon-main);
 }
