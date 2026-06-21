@@ -15,12 +15,16 @@
     --gap-sm: 0.5rem;
     --gap-md: 1rem;
     --gap-lg: 3rem;
-    --font-size-sidebar-logo: 1.5rem;
-    --size-sidebar-logo: 2em;
-    --size-sidebar-icon: 2em;
-    --size-header-icon: 2em;
-    --size-avatar-small: 2em;
-    --size-avatar-big: 3.5em;
+    --size-scale-sm: 1.5em;
+    --size-scale-md: 2em;
+    --size-scale-lg: 3.5em;
+
+    --font-size-sidebar-logo: var(--size-scale-sm);
+    --size-sidebar-logo: var(--size-scale-md);
+    --size-sidebar-icon: var(--size-scale-md);
+    --size-header-icon: var(--size-scale-md);
+    --size-avatar-small: var(--size-scale-md);
+    --size-avatar-big: var(--size-scale-lg);
 
     --announcement-border: 1px solid grey;
 
