@@ -21,6 +21,7 @@
     --size-header-icon: 2em;
     --size-avatar-small: 2em;
     --size-avatar-big: 3.5em;
+
     --announcement-border: 1px solid grey;
 
     --main-text: #495057;
@@ -134,11 +135,8 @@ ul, ol {
 .searchbar {
     grid-area: search;
     display: flex;
+    align-items: center;
     gap: var(--gap-sm);
-}
-
-.icon-search {
-    max-width: 100px;
 }
 
 .searchbar input {
