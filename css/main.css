@@ -149,6 +149,7 @@ ul, ol {
 
 .searchbar input {
     flex: 1;
+    max-width: 70%;
 }
 
 .user-menu {
