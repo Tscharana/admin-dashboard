@@ -129,7 +129,7 @@ ul, ol {
 .header {
     grid-area: header;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 80% auto;
     grid-template-rows: max-content max-content;
     grid-template-areas:
     "search user"
@@ -252,13 +252,19 @@ ul, ol {
     grid-auto-flow: row;
     grid-auto-rows: auto;
     gap: var(--gap-sm);
-    padding: var(--gap-sm);
+    padding: var(--gap-md);
     background: var(--card-bg);
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-sm);
 }
 
 .announcement + .announcement {
     border-top: var(--announcement-border);
-    padding-top: var(--gap-sm);
 }
 
 .trending {
