@@ -292,30 +292,25 @@ ul, ol {
     fill: var(--icon-header);
 }
 
+.main svg {
+    width: var(--size-main-icon);
+    height: var(--size-main-icon);
+    fill: var(--icon-main);
+}
+
 .user-avatar-big {
     width: var(--size-avatar-big);
     height: var(--size-avatar-big);
     display: inline-block;
 }
 
-.user-avatar-big svg {
-    width: 100%;
-    height: 100%;
-}
-
-.user-avatar {
+.user-avatar, .trending-avatar {
     width: var(--size-avatar-small);
     height: var(--size-avatar-small);
     display: inline-block;
 }
 
-.user-avatar svg {
+.user-avatar svg, .user-avatar-big svg, .trending-avatar svg {
     width: 100%;
     height: 100%;
-}
-
-.main svg {
-    width: var(--size-main-icon);
-    height: var(--size-main-icon);
-    fill: var(--icon-main);
 }
