@@ -93,7 +93,7 @@ ul, ol {
 .grid-container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: minmax(min-content, 400px) 4fr;
     grid-template-rows: auto 4fr;
     grid-template-areas:
     "sidebar header"
