@@ -41,6 +41,7 @@
     --main-bg: #f4f6f9;
     --card-bg: #ffffff;
     --card-border-left: 5px solid rgba(230, 190, 60, 0.6);
+    --card-radius: 10px;
 
     --icon-logo: #ffffff;
     --icon-side-icon: #ffffff;
@@ -234,6 +235,10 @@ ul, ol {
     padding: var(--gap-md);
     background: var(--card-bg);
     border-left: var(--card-border-left);
+}
+
+.project, .announcements, .trending {
+    border-radius: var(--card-radius);
 }
 
 .project-icons {
