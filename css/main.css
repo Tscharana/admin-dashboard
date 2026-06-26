@@ -86,10 +86,6 @@ ul, ol {
     color: var(--header-link);
 }
 
-/* .grid-container div {
-    outline: 1px solid black;
-} */
-
 .grid-container {
     min-height: 100vh;
     display: grid;
@@ -150,6 +146,9 @@ ul, ol {
 .searchbar input {
     flex: 1;
     max-width: 70%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
 }
 
 .user-menu {
